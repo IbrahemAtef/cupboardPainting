@@ -1,5 +1,10 @@
 .container{
-    position: relative;
+     position: relative;
+	 margin: auto;
+	width: 30%;
+	padding: 10px;
+
+
 }
 
 .first , .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth{
@@ -10,6 +15,10 @@
 	border: 2px solid black;
 	text-align: center;
 	font-size: 20px;
+	height: 10em;
+   display: flex;
+   align-items: center;
+   justify-content: center
 }
 
 .first {
