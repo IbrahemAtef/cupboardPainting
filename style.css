@@ -1,33 +1,28 @@
-.container{
+.container, .alert{
     position: relative;
 	margin: auto;
 	width: 30%;
 	padding: 10px;
 }
 
-label {
-	font-size: 20px;
-	
-}
-
 .header {
-	font-style: bold;
-	color: blue;
-	font-size: 20px;
+	font-style: oblique;
+	color: darkcyan;
+	font-size: 24px;
 }
 
 .first , .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth{
 	position: absolute;
 	top: 0;
 	left: 0;
-	border-radius: 4px;
+	border-radius: 10px;
 	border: 2px solid black;
 	text-align: center;
 	font-size: 20px;
 	height: 10em;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .first {
@@ -106,4 +101,30 @@ label {
 	background-color: white;
 	border-color: black; 
 	border-width: 2px;
+}
+
+body {
+	background-image: url("pic.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 1000px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#score {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+.alert {
+    left: 30px;
+    padding: 20px;
+    background-color: forestgreen;
+    width: 600px;
+    height: 40px;
+    text-align: center;
+    color: khaki;
+    font-size: 24px;
 }
